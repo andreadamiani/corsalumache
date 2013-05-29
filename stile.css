@@ -1,0 +1,102 @@
+* {
+	margin:0;
+}
+
+
+h1 { 
+	color: white;
+	text-align:center;
+	background-color: blue;
+
+}
+
+
+#vittoria {
+ 	background: url('traguardo.jpg') top right;
+	height: 490px;
+	width: 6px;
+	position: absolute;
+	top: 12%;
+	right: 500px;
+}
+
+.lumaca {
+	background: url('lumaca.jpg') no-repeat top right;
+}
+
+#lumaca1 {
+	height: 44px;
+	width: 44px;
+	background-color: red;
+	position: absolute;
+	top: 15%;
+	left: 50px;
+	
+}
+
+#lumaca2 {
+	height: 44px;
+	width: 44px;
+	background-color: yellow;
+	position: absolute;
+	top: 35%;
+	left: 50px;	
+}
+
+#lumaca3 {
+	height: 44px;
+	width: 44px;
+	background-color: green;
+	position: absolute;
+	top: 55%;
+	left: 50px;	
+}
+
+
+.led {  border: 1px solid black;
+	border-radius: 100%;
+	position: absolute;
+	height: 44px;
+	width: 44px;
+	right: 50px;
+}
+
+.acceso {
+	background-color: yellow;
+	border: 3px solid red;
+}
+
+
+#led1 {
+	top: 15%;	
+}
+
+#led2 {	
+	top: 35%;		
+}
+
+#led3 {
+	top: 55%;	
+}
+
+.pulsante {
+	border: 3px solid black;
+	border-radius: 5px;
+	background-color: #666;
+	color: white;
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	top: 75%;
+	font-size: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+#reset {
+	left:35%;	
+}
+
+#start {
+	right:35%;
+}
