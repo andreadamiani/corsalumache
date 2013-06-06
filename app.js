@@ -24,14 +24,15 @@ $(lumacaid).css("width",$(lumacaid).innerWidth()+10);
 $('.led').removeClass('acceso');
 var ledid="#led"+lumaca;
 $(ledid).addClass('acceso');
-if  ($(lumacaid).innerWidth() > ($('body').innerWidth() * 0.85) ) { 
+if  ($(lumacaid).innerWidth() > ($('body').innerWidth() * 0.64) ) { 
 	clearInterval(timer);
-	alert("Ha vinto la lumaca " + lumaca + "°!");
+	alert("Ha vinto la lumaca numero " + lumaca + "!");
 
 }
 
 }
 
 function start() {
-timer = setInterval(gioca, 30);
+timer = setInterval(gioca, 40);
 }
+
