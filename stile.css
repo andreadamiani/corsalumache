@@ -9,19 +9,19 @@ h1 {
 	background-color: blue;
 	position: absolute;
 	top: 0;
-	height: 7;
+	height: 5%;
 	width: 100%;
-	font-size: 3em;
+	font-size: 2em;
 }
 
 
 #vittoria {
  	background: url('traguardo.jpg') top right;
-	height: 490px;
+	height: 380px;
 	width: 6px;
 	position: absolute;
 	top: 12%;
-	right: 15%;
+	right: 40%;
 	z-index: -1;
 }
 
@@ -35,7 +35,7 @@ h1 {
 	background-color: red;
 	position: absolute;
 	top: 15%;
-	left: 50px;
+	left: 1px;
 	
 }
 
@@ -45,7 +45,7 @@ h1 {
 	background-color: yellow;
 	position: absolute;
 	top: 35%;
-	left: 50px;	
+	left: 1px;	
 }
 
 #lumaca3 {
@@ -54,7 +54,7 @@ h1 {
 	background-color: green;
 	position: absolute;
 	top: 55%;
-	left: 50px;	
+	left: 1px;	
 }
 
 
@@ -90,7 +90,7 @@ h1 {
 	background-color: #666;
 	color: white;
 	text-align: center;
-	width: 13%;
+	width: 16%;
 	position: absolute;
 	top: 75%;
 	font-size: 2em;
@@ -99,9 +99,10 @@ h1 {
 }
 
 #reset {
-	left:35%;	
+	left:20%;	
 }
 
 #start {
-	right:35%;
+	right:20%;
 }
+
