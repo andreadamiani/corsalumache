@@ -11,7 +11,7 @@ h1 {
 	top: 0;
 	height: 8%;
 	width: 100%;
-	font-size: 2em;
+	font-size: 1em;
 }
 
 
@@ -27,6 +27,7 @@ h1 {
 }
 
 .lumaca {
+	/*background: url('lumaca.gif') no-repeat top right;*/
 	position: absolute;
 	top: 0;
 	right: -44px;
@@ -38,7 +39,7 @@ h1 {
 	background-color: red;
 	position: absolute;
 	top: 15%;
-	left: 50px;
+	left: 2px;
 	
 }
 
@@ -48,7 +49,7 @@ h1 {
 	background-color: yellow;
 	position: absolute;
 	top: 35%;
-	left: 50px;	
+	left: 2px;	
 }
 
 #lumaca3 {
@@ -57,7 +58,7 @@ h1 {
 	background-color: green;
 	position: absolute;
 	top: 55%;
-	left: 50px;	
+	left: 2px;	
 }
 
 
