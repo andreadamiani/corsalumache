@@ -9,10 +9,11 @@ h1 {
 	background-color: blue;
 	position: absolute;
 	top: 0;
-	height: 5%;
+	height: 8%;
 	width: 100%;
 	font-size: 2em;
 }
+
 
 
 #vittoria {
@@ -26,35 +27,38 @@ h1 {
 }
 
 .lumaca {
-	background: url('lumaca.jpg') no-repeat top right;
+	/*background: url('lumaca.gif') no-repeat top right;*/
+	position: absolute;
+	top: 0;
+	right: -44px;
 }
 
 #lumaca1 {
 	height: 44px;
-	width: 44px;
+	width: 0px;
 	background-color: red;
 	position: absolute;
 	top: 15%;
-	left: 1px;
+	left: 50px;
 	
 }
 
 #lumaca2 {
 	height: 44px;
-	width: 44px;
+	width: 0px;
 	background-color: yellow;
 	position: absolute;
 	top: 35%;
-	left: 1px;	
+	left: 50px;	
 }
 
 #lumaca3 {
 	height: 44px;
-	width: 44px;
+	width: 0px;
 	background-color: green;
 	position: absolute;
 	top: 55%;
-	left: 1px;	
+	left: 50px;	
 }
 
 
@@ -84,13 +88,14 @@ h1 {
 	top: 55%;	
 }
 
+
 .pulsante {
 	border: 3px solid black;
 	border-radius: 5px;
 	background-color: #666;
 	color: white;
 	text-align: center;
-	width: 16%;
+	width: 20%;
 	position: absolute;
 	top: 75%;
 	font-size: 2em;
@@ -105,4 +110,3 @@ h1 {
 #start {
 	right:20%;
 }
-
