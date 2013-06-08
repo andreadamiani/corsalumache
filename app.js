@@ -7,7 +7,7 @@ $(document).ready(function()  {
 });
 
 function reset() {
-$('.lumaca').css('width', '44px');
+$('.lumacadiv').css('width', '0px');
 $('.led').removeClass('acceso');
 clearInterval(timer);
 }
@@ -24,9 +24,9 @@ $(lumacaid).css("width",$(lumacaid).innerWidth()+10);
 $('.led').removeClass('acceso');
 var ledid="#led"+lumaca;
 $(ledid).addClass('acceso');
-if  ($(lumacaid).innerWidth() > ($('body').innerWidth() * 0.64) ) { 
+if  ($(lumacaid).innerWidth() > ($('body').innerWidth() * 0.58) ) { 
 	clearInterval(timer);
-	alert("Ha vinto la lumaca numero " + lumaca + "!");
+	alert("Ha vinto la lumaca " + lumaca + "°!");
 
 }
 
@@ -35,4 +35,5 @@ if  ($(lumacaid).innerWidth() > ($('body').innerWidth() * 0.64) ) {
 function start() {
 timer = setInterval(gioca, 40);
 }
+
 
